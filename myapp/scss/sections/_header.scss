@@ -1,0 +1,127 @@
+.logo {
+    margin-left: auto;
+    div {
+        &:nth-child(1) {
+            font-size: 46px;
+            line-height: 55px;
+        }
+        &:nth-child(2) {
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 3px;
+            border-top: 1px solid #000;
+        }
+    }
+} 
+.header {
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        min-height: 1035px;
+    }
+    &__bottom {
+        margin-top: auto;
+    }
+    h1 {
+        margin-top: auto;
+        font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        margin: 0 0 100px;
+        padding-left: 50%;
+        @media screen and (max-width: 991px){
+            padding-left: 35%;
+        }
+        @media screen and (max-width: 543px){
+            padding-left: 0;
+            padding-right: 20px;
+            max-width: 320px;
+            margin-left: auto;
+            margin-bottom: 50px;
+        }
+    }
+    &__title {
+        font-size: 75px;
+        line-height: 90px;
+        font-weight: 800;
+        color: $accent;
+    }
+    &__word {
+        font-size: 45px;
+        line-height: 54px;
+        font-weight: 500;
+        font-weight: 400;
+    }
+    &__text {
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 400;
+
+        @media screen and (max-width: 1144px){
+            font-size: 20px;
+            line-height: 22px;
+        }
+        @media screen and (max-width: 991px){
+            font-size: 16px;
+        }
+    }
+}
+.list {
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        @media screen and (max-width: 767px){
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        min-height: 50px;
+        border-radius: 50%;
+        background: $accent;
+        @media screen and (max-width: 1144px){
+            margin-right: 10px;
+            width: 27px;
+            height: 27px;
+            min-width: 27px;
+            min-height: 27px;
+        }
+        svg {
+            width: 30px;
+            height: 30px;
+            fill: #fff;
+            @media screen and (max-width: 1144px){
+                    
+                width: 11px;
+                height: 11px;
+            }
+        }
+    }
+    &__text {
+        font-size: 25px;
+        line-height: 30px;
+        @media screen and (max-width: 1144px){
+            font-size: 20px;
+            line-height: 22px;
+        }
+        @media screen and (max-width: 749px){
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+}

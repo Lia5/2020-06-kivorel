@@ -1,0 +1,41 @@
+.home {
+    position: relative; 
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    padding: 100px 0;
+	background: #000 url('../img/home-bg.jpg') no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+    background-size: cover;
+    font-size: 18px;
+    line-height: 21px;
+    @media screen and (max-width: 1919px) {
+
+    }
+    @media only screen and (max-width: 1350px) and (orientation: portrait),
+    screen and (max-width: 1080px) {
+       
+    }
+    @media screen and (max-width: 749px){
+       
+    } 
+    .wrap {
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+    }
+    &__body {
+        font-size: 30px;
+        line-height: 37px;
+        @media screen and (max-width: 543px){
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+
+
+}
+
+

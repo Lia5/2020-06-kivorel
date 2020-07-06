@@ -1,0 +1,17 @@
+@import "_mixins/font-face";
+
+
+// @include font-face("OpenSans", "../fonts/OpenSansLight/OpenSansLight", 200);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans", 400);
+@include font-face("OpenSans", "../fonts/OpenSansItalic/OpenSansItalic", 400, italic);
+// @include font-face("OpenSans", "../fonts/OpenSans/OpenSans", 400);
+@include font-face("OpenSans", "../fonts/OpenSansSemiboldItalic/OpenSansSemiboldItalic", 600, italic);
+@include font-face("OpenSans", "../fonts/OpenSansBold/OpenSansBold", 800);
+@include font-face("OpenSans", "../fonts/OpenSansBoldItalic/OpenSansBoldItalic", 800, italic);
+
+@include font-face("OsnovaPro", "../fonts/OsnovaProLight/OsnovaProLight", 200);
+@include font-face("OsnovaPro", "../fonts/OswaldRegular/OswaldRegular", 400);
+@include font-face("OsnovaPro", "../fonts/OsnovaProMedium/OsnovaProMedium", 500);
+
+
+
